@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace IDFProject
 {
-    internal class Program
+    internal class Aman
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }
