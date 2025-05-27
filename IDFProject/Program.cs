@@ -17,6 +17,7 @@ namespace IDFProject
 
             terrorist.ShowInfo();
             Console.ReadLine(); 
+
         }
     }
 }
