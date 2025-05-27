@@ -11,11 +11,11 @@ namespace IDFProject
         public abstract string Name { get; }
         public abstract string DateTimeFounded {  get;  }
         public abstract string Leader { get; set; }
-        public abstract List<string> Members { get; set; }
+        public abstract List<Terrorist> Members { get; set; }
 
 
 
-        public abstract void AddMember(string member);
-        public abstract void RemoveMember(string member);
+        public abstract void AddMember(Terrorist member);
+        public abstract void RemoveMember(Terrorist member);
     }
 }

@@ -10,7 +10,14 @@ namespace IDFProject
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
 
+=======
+            Terrorist terrorist = Terrorist.CreateRandomTerrorist();
+
+            terrorist.ShowInfo();
+            Console.ReadLine(); 
+>>>>>>> Daniel
         }
     }
 }
