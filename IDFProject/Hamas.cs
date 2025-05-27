@@ -16,13 +16,18 @@ namespace IDFProject
         public override string Leader { get; set; } = "Ismail Ania";
         
         
-        public override List<string> Members { get; set; } 
+        public override List<Terrorist> Members { get; set; } 
 
-        public override void AddMember(string member)
+        public Hamas()
+        {
+            Members = new List<Terrorist>();
+        }
+
+        public override void AddMember(Terrorist member)
         {
             Members.Add(member);
         }
-        public override void RemoveMember(string member)
+        public override void RemoveMember(Terrorist member)
         {
             Members.Remove(member);
         }

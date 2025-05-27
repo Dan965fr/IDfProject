@@ -13,15 +13,50 @@ namespace IDFProject
         public bool IsAlive;
         public List<string> Weapons;
 
+        public int WeaponPoints;
+        public int QualityPoints;
+
+
+
         public Terrorist(string name, int rank, List<string> weapons)
         {
             Name = name;
             Rank = (rank >= 1 && rank <= 5) ? rank : 1;
             IsAlive = true;
             Weapons = weapons;
+
+
+            CalculateWeaponPoints(); ;
+            CalculateQualityScore();
+        }
+        private void CalculateWeaponPoints()
+        {
+            WeaponPoints = 0;
+            foreach (string weapon in Weapons)
+            {
+                switch (weapon.ToLower())
+                {
+                    case "knife":
+                        WeaponPoints += 1;
+                        break;
+                    case "gun":
+                        WeaponPoints += 2;
+                        break;
+                    case "m16":
+                    case "ak47":
+                        WeaponPoints += 3;
+                        break;
+                }
+
+
+            }
+        }
+        private void CalculateQualityScore()
+        {
+            QualityPoints = Rank * WeaponPoints;
         }
 
-         
+
         public static Terrorist CreateRandomTerrorist()
         {
             Random rnd = new Random();
@@ -63,4 +98,4 @@ namespace IDFProject
 
 }
 
-    }
+    
