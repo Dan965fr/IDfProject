@@ -1,7 +1,0 @@
-C:\Users\Daniel Fromer\source\repos\IdfProject\IDFProject\obj\Debug\IDFProject.csproj.AssemblyReference.cache
-C:\Users\Daniel Fromer\source\repos\IdfProject\IDFProject\obj\Debug\IDFProject.csproj.CoreCompileInputs.cache
-C:\Users\Daniel Fromer\source\repos\IdfProject\IDFProject\bin\Debug\IDFProject.exe.config
-C:\Users\Daniel Fromer\source\repos\IdfProject\IDFProject\bin\Debug\IDFProject.exe
-C:\Users\Daniel Fromer\source\repos\IdfProject\IDFProject\bin\Debug\IDFProject.pdb
-C:\Users\Daniel Fromer\source\repos\IdfProject\IDFProject\obj\Debug\IDFProject.exe
-C:\Users\Daniel Fromer\source\repos\IdfProject\IDFProject\obj\Debug\IDFProject.pdb
